@@ -2,7 +2,7 @@
 String builder
  */
 
-public class StringBuilder {
+public class StrBuilder {
     public static void main(String[] args) {
 //        System.out.println("Tell me about yourself: ");
 //        String name = new String("Alexoria, ");
@@ -23,10 +23,10 @@ public class StringBuilder {
         Our program will eat a lot of RAM, and will run really slowly.
          */
 
-        java.lang.StringBuilder sb = new java.lang.StringBuilder(); // null
+        StringBuilder sb = new StringBuilder(); // null
         System.out.println("Tell me about yourself: ");
         sb.append("Alexoria, ").append("not so much old, ").append("in love with Java.");
-        System.out.println(sb.toString()); // toString coz type is StringBuilder
+        System.out.println(sb); // toString because type is StringBuilder #UPDATE: It's not necessary anymore
 
         /*
         This time I created StringBuilder.
